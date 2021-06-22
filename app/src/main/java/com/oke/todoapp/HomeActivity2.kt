@@ -13,5 +13,7 @@ class HomeActivity2 : AppCompatActivity() {
         usernamedisplay = findViewById(R.id.usernamedispaly)
 
         usernamedisplay.text = "Hello human beings"
+
+        usernamedisplay.text=intent.getStringExtra( "username")
     }
 }

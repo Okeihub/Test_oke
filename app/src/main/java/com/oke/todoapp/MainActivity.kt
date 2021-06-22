@@ -9,8 +9,8 @@ import android.widget.Toast
 
 class MainActivity : AppCompatActivity() {
 
-    val username: String = "admin"
-    val password: String = "okeihub"
+    val validusername: String = "admin"
+    val validpassword: String = "okeihub"
 
 
     private lateinit var usernameinput: EditText
@@ -26,10 +26,10 @@ class MainActivity : AppCompatActivity() {
 
         submitbutton.setOnClickListener {
 
-            val validusername = usernameinput.text.toString()
-            val validpassword = passwordinput.text.toString()
+            val username = usernameinput.text.toString()
+            val password = passwordinput.text.toString()
 
-            login(username, password)
+            login(username,password)
         }
     }
 
