@@ -18,7 +18,7 @@
       />
 
     <EditText
-        android:id="@+id/usernameinput"
+        android:id="@+id/usernamedispaly"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:ems="10"
